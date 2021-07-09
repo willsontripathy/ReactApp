@@ -1,3 +1,9 @@
 Install create-react-app from npm with "npm i -g create-react-app" globally.
 create a react app using "create-react-app <project Name>".
 Run the app using "npm start".
+
+=====================================================================================
+Setup Git
+====================================================================================
+"git init"
+"git remote add origin 'your_url_name'"
