@@ -7,3 +7,15 @@ Setup Git
 ====================================================================================
 "git init"
 "git remote add origin 'your_url_name'"
+
+
+====================================================================================
+useState Hook in react =>
+====================================================================================
+-> The state holds the component data for binding in jsx.
+-> To create a useState hook import React from react package( import React from 'react';)
+-> Use react useState method to create a state and pass default value by useing "Array destructureing".
+   const [count, setCount] = React.useState(0);
+-> The count holds the data & setCount is the method to update the state.
+-> To update the state we use setCount method and pass the new value.
+   setCount(20);
