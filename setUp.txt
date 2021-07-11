@@ -19,3 +19,13 @@ useState Hook in react =>
 -> The count holds the data & setCount is the method to update the state.
 -> To update the state we use setCount method and pass the new value.
    setCount(20);
+
+====================================================================================
+Props in React =>
+====================================================================================
+-> The props are the data send from the parent component to child component.
+   <EmployeeProps Employee={employee} />
+   Employee has the data send from child component to parent component.
+-> The first parameter of the child component function is the props.
+   const EmployeeProps = (props) => {}
+   Employee is the child component & props have the data sent from parent component.
